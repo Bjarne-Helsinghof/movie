@@ -16,7 +16,7 @@ namespace movierating.Rating
         }
         public void LoadJson()
         {
-            using (var r = new StreamReader(@"C:\Users\Bjarne Helsinghof\Documents\GitHub\seriousSDMTitle\small.json"))
+            using (var r = new StreamReader(@"C:\Users\Bjarne Helsinghof\Documents\GitHub\movie\movie\small.json"))
             {
                 var json = r.ReadToEnd();
                 _Item = JsonConvert.DeserializeObject<List<Item>>(json);
