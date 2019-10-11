@@ -8,28 +8,24 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        readonly IRating _rating = new Rating();
+         IRating r = new Rating();
 
         [TestMethod] //1
-        public void TestTrueGetNumberOfReviewsFromSelectUser()
+        public void TestGetNumberOfReviewsFromSelectUser()
         {
 
-            Assert.IsTrue(_rating.GetNumberOfReviewsFromSelectUser(1) == 3);
+            Assert.IsTrue(r.GetNumberOfReviewsFromSelectUser(1) == 5);
+            Assert.IsFalse(r.GetNumberOfReviewsFromSelectUser(1) == 10000);
         }
 
-        [TestMethod]
-        public void TestFalseGetNumberOfReviewsFromSelectUser()
-        {
-
-            Assert.IsFalse(_rating.GetNumberOfReviewsFromSelectUser(1) == 10000);
-        }
+       
         [TestMethod] //2
         public void TestTrueGetAverageReviewRatingFromUser()
         {
 
-            Assert.IsTrue(Math.Abs(_rating.GetAverageReviewRatingFromUser(1) - 4.0) < 5.1);
+            Assert.IsTrue(r.GetAverageReviewRatingFromUser(1) ==4.0);
         }
-
+            
 
     }
 }

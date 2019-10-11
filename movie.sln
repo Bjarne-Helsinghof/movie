@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie", "movie\movie.csproj", "{A6C74E7F-F164-4DDF-8306-CFDD41CFAD8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "movie", "movie\movie.csproj", "{A6C74E7F-F164-4DDF-8306-CFDD41CFAD8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{DCD73A2C-8F2C-4CDE-95C9-67B9DBA01A63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{DCD73A2C-8F2C-4CDE-95C9-67B9DBA01A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "performtest", "performtest\performtest.csproj", "{37303A59-0BED-4483-BAF4-9D432854DB5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DCD73A2C-8F2C-4CDE-95C9-67B9DBA01A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCD73A2C-8F2C-4CDE-95C9-67B9DBA01A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCD73A2C-8F2C-4CDE-95C9-67B9DBA01A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37303A59-0BED-4483-BAF4-9D432854DB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37303A59-0BED-4483-BAF4-9D432854DB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37303A59-0BED-4483-BAF4-9D432854DB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37303A59-0BED-4483-BAF4-9D432854DB5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
